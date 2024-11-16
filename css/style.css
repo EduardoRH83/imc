@@ -1,0 +1,59 @@
+body{
+    margin: 5px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    border-radius: 5px;
+    background-color: #31363F;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor div{
+    color: white;
+    padding: 2.5% 0;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contenedor .salida{
+    width: 80%;
+    margin: 0 10%;
+    
+}
+
+.contenedor div input{
+    outline: transparent;
+    padding: 3px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 1% 0;
+    text-align: center;
+}
+
+
+.contenedor div .entradaInput{
+    background-color: #EEEEEE;
+    border: 2px solid black;
+}
+
+.contenedor div #output{
+    background-color: #EEEEEE;
+    border: 0;
+}
+
+.contenedor button{
+    margin-bottom: 2.5%;
+    border-radius: 5px;
+    background-color: #76ABAE;
+}
